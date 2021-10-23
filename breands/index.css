@@ -1,0 +1,104 @@
+*{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#logo{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#breands{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-transform: uppercase;
+    float: left;
+}
+
+#upper{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    z-index: 1000;
+}
+
+#img{
+    display: flex;
+    justify-content: flex-end;
+    width: 93%;
+    
+}
+
+#photo{
+    height: 273px;
+    width: 11%;
+    margin-top: 7%;
+}
+
+#url{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+#url:hover{
+    color: rgb(214, 0, 0);
+    transition: color 0.2s linear;
+}
+
+#Names{
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 15%;
+}
+
+
+#info{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#more{
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+
+#more:hover{
+    color: rgb(214, 0, 0);
+    transition: color 0.2s linear;
+}
+
+p{
+    width: 55%;
+}
+
+button{
+    width: 11%;
+    height: 25px;
+    margin-left: 30px;
+}

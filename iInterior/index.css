@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.banner {
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://bigsee.eu/wp-content/uploads/2020/09/00_Alexandrina-Nenkova-interior.jpg);
+    background-color: #2e3a44;
+    background-size: cover;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    width: 120px;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: silver;
+    transition: color 0.2s linear;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h1:hover {
+    color: silver;
+    transition: color 0.2s linear;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20PX;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: silver;
+    transition: color 0.2s linear;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    width: 22%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    line-height: 15px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: silver;
+    color: #009688;
+    transition: color 0.5s linear;
+    transition: background-color 0.5s linear;
+}
+
+
+@media(max-width:818px){
+
+    #h1{
+        font-size: 45px;
+    }
+
+
+    #btn{
+    line-height: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    }
+
+   
+}
+
+
